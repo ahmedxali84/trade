@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRYPTO ALLIANCE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>Contact</li></a>
+        <a href="#"><li>Courses</li></a>
+        <a href="#"><li>About</li></a>
+    </ul>
+
+    <!-- Intro Section -->
+    <div class="intro-box">
+        <h1>🚀 Trade Smarter with Accurate Crypto Signals 🚀</h1>
+        <h2>Welcome to <span class="highlight">CRYPTO ALLIANCE</span></h2>
+        <p class="subtext">
+            💰 <b>Free Crypto Signals | Live Trading | Newbie Guidance</b> 💰
+        </p>
+
+        <ul class="benefits">
+            <li>✅ Free daily crypto signals on WhatsApp & Telegram</li>
+            <li>✅ Expert guidance for beginners to start trading</li>
+            <li>✅ Live trading sessions on YouTube with real-time analysis</li>
+            <li>✅ Market updates, technical insights & risk management tips</li>
+        </ul>
+
+        <p class="cta-text">🔥 Join us & trade smarter, not harder! 🚀</p>
+    </div>
+    
+    <!-- Feature Comparison Table -->
+    <div class="table-container">
+        <h2>📊 Free vs Paid Plan</h2>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Free Plan</th>
+                <th>Paid Plan</th>
+            </tr>
+            <tr>
+                <td>Daily Signals</td>
+                <td>Limited (1-2 signals/day)</td>
+                <td>Unlimited (5-10 signals/day)</td>
+            </tr>
+            <tr>
+                <td>Market Analysis</td>
+                <td>Basic Overview</td>
+                <td>In-depth Analysis</td>
+            </tr>
+            <tr>
+                <td>Entry & Exit Points</td>
+                <td>❌</td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <td>Portfolio Management Tips</td>
+                <td>❌</td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <td>VIP Community Access</td>
+                <td>❌</td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <td>One-on-One Guidance</td>
+                <td>❌</td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <td>Risk Management Strategies</td>
+                <td>Basic Tips</td>
+                <td>Advanced Strategies</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+        <h2>📩 Contact Us</h2>
+        <p>Email: <a href="mailto:support@tradeview.com">support@tradeview.com</a></p>
+        <p>WhatsApp: <a href="#">+123 456 7890</a></p>
+        <p>Telegram: <a href="#">TradeViewOfficial</a></p>
+    </div>
+
+    <!-- Modal for Login/Signup -->
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="tabs">
+                <button id="signupTab" class="tab-btn active">Sign Up</button>
+                <button id="loginTab" class="tab-btn">Log In</button>
+            </div>
+            <form id="authForm">
+                <div id="signupForm" class="form-container">
+                    <h2>Sign Up</h2>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Sign Up</button>
+                </div>
+                <div id="loginForm" class="form-container" style="display:none;">
+                    <h2>Log In</h2>
+                    <label for="loginEmail">Email:<input type="email" id="loginEmail" name="loginEmail" required></label>
+                    <label for="loginPassword">Password:<input type="password" id="loginPassword" name="loginPassword" required></label>
+                    <button type="submit">Log In</button>
+                </div>
+                <div id="authError" style="color: red; display: none;">Please fill all fields correctly.</div>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
